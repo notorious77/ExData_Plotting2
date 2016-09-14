@@ -17,6 +17,6 @@ png(filename = "plot2.png",
     width = 480, height = 480, units = "px", pointsize = 12,
     bg = "white", res = NA, family = "", restoreConsole = TRUE)
 
-plot(q2$year, q2$Emissions,  xlab = "Years", ylab = "Emissions", height = q2$Emissions, main = "Total Emissions by Year - Baltimore")
+plot(q2$year, q2$Emissions,  xlab = "Years", ylab = "Emissions",  main = "Total Emissions by Year - Baltimore")
 
 dev.off()
